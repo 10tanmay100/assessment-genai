@@ -16,6 +16,6 @@ We need to see precision one when our llm is retrieving many documents but only 
 
 We need to see recall one when our llm is retrieving many documents but few of them are missing anc causing incomplete or maybe wrong answer
 
-We need to use Faithfullness when we need to check the genearated answers are matching with the retrieved documents or not, just we want to ignore hallucinated answers.
+We need to use Faithfullness when we need to check the genarated answers are matching with the retrieved documents or not, just we want to ignore hallucinated answers. we will some factual checkup with relevant documents that we will have
 
 We need to use answer relevancy when we need to check generated answer directly matching with the user query or generated answer is directing somewhere else instead of the user query's direction.
