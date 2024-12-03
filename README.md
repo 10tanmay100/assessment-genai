@@ -12,7 +12,7 @@ Now in this code i have used RAGAS that is a framework implemented for Rag evalu
 3. Faithfullness -> It checks how much  generated answer is relevant with the retrieved documents
 4. Answer Relevancy -> It checks how much generated answer is relevant with the user query
 
-We need to see precision one when our llm is retrieving many documents but only few of them are used toanswer the query of the user.
+We need to see precision one when our llm is retrieving many documents but only few of them are used to answer the query of the user. For the real time example if I say then in my notebook you can see context precsion came nan that means it probably happened because my all contexts are same and i used very small txt file to get this questions and answers.
 
 We need to see recall one when our llm is retrieving many documents but few of them are missing anc causing incomplete or maybe wrong answer
 
